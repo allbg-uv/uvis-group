@@ -22,3 +22,4 @@ BEFORE FINAL LAUNCH
 - Connect the contact form to Formspree, Basin, Web3Forms or another form service if browser-based mail opening is not sufficient.
 
 The website contains no licensed stock photos and has no paid dependencies.
+Website connected to Cloudflare.
