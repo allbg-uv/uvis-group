@@ -49,7 +49,7 @@ p{
 /* Header */
 
 .header{
-  height:84px;
+  height:88px;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -65,10 +65,10 @@ p{
 }
 
 .logo img{
-  width:240px;
+  width:290px;
   height:auto;
   max-width:42vw;
-  max-height:58px;
+  max-height:64px;
   object-fit:contain;
   object-position:left center;
   display:block;
