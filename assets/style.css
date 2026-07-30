@@ -11,10 +11,10 @@
 }
 
 .project-credit-box{
-    margin-top:18px;
+    margin-top:20px;
     padding-top:14px;
     border-top:1px solid #d9dde3;
-    max-width:420px;
+    max-width:380px;
 }
 
 .project-credit-label{
@@ -38,7 +38,7 @@
     display:inline-block;
     margin-top:8px;
     font-size:13px;
-    color:#1472c3;
+    color:#5b84b7;
     text-decoration:none;
     transition:.2s;
 }
