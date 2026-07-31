@@ -65,8 +65,8 @@ p{
 }
 
 .logo img{
-  width:320px;
-  height:auto;
+  width:auto;
+  height:72px;
   max-width:42vw;
   max-height:78px;
   object-fit:contain;
