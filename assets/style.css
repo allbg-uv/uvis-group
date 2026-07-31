@@ -70,6 +70,8 @@ p{
   max-width:42vw;
   max-height:78px;
   object-fit:contain;
+  object-position:left center;
+  display:block;
   
 }
 
