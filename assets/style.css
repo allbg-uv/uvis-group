@@ -49,7 +49,7 @@ p{
 /* Header */
 
 .header{
-  height:88px;
+  height:96px;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -65,13 +65,12 @@ p{
 }
 
 .logo img{
-  width:270px;
+  width:320px;
   height:auto;
   max-width:42vw;
-  max-height:64px;
+  max-height:78px;
   object-fit:contain;
-  object-position:left center;
-  display:block;
+  
 }
 
 .header nav{
