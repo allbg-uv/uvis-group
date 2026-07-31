@@ -64,15 +64,12 @@ p{
   flex:0 0 auto;
 }
 
-.logo img{
-  width:auto;
-  height:72px;
-  max-width:42vw;
-  max-height:78px;
-  object-fit:contain;
-  object-position:left center;
-  display:block;
-  
+.logo img {
+  display: block;
+  width: 230px;
+  height: auto;
+  max-width: none;
+  max-height: none;
 }
 
 .header nav{
