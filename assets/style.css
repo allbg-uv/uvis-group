@@ -65,11 +65,9 @@ p{
 }
 
 .logo img {
-  display: block;
-  width: auto;
-  height: 56px;
-  max-width: none;
-  max-height: none;
+ display: block;
+    height: 58px;
+    width: auto;
 }
 
 .header nav{
