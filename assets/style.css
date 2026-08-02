@@ -358,8 +358,8 @@ p{
 }
 
 .contact-box{
-  padding:34px;
-  border-radius:18px;
+  padding:42px;
+  border-radius:22px;
   background:var(--paper);
 }
 
@@ -369,6 +369,9 @@ p{
   font-size:1.35rem;
   font-weight:600;
   color:var(--navy);
+}
+.contact-box p {
+    margin-bottom:24px;
 }
 
 /* Footer */
@@ -384,7 +387,7 @@ footer{
 }
 
 footer img{
-  width:220px;
+  width:250px;
   height:auto;
   max-height:54px;
   object-fit:contain;
@@ -468,6 +471,7 @@ footer img{
   }
    .project-overlay{
     padding:24px;
+      padding-bottom: 70px;
   }
 
   .project-credit-box{
