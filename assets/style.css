@@ -306,6 +306,7 @@ p{
   flex-direction: column;
   justify-content: flex-end;
   padding: 32px;
+   padding-bottom: 70px;
   color: #ffffff;
   background:
     linear-gradient(
@@ -366,7 +367,7 @@ p{
 .contact-box a{
   display:inline-block;
   margin-top:18px;
-  font-size:1.35rem;
+  font-size:1.3rem;
   font-weight:600;
   color:var(--navy);
 }
@@ -387,7 +388,7 @@ footer{
 }
 
 footer img{
-  width:250px;
+  width:260px;
   height:auto;
   max-height:54px;
   object-fit:contain;
@@ -458,6 +459,7 @@ footer img{
   .split,
   .contact{
     grid-template-columns:1fr;
+    padding-top: 70px;
   }
 
   .cards{
