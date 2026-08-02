@@ -354,6 +354,7 @@ p{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:80px;
+  margin-top: -30px;
 }
 
 .contact-box{
@@ -365,8 +366,8 @@ p{
 .contact-box a{
   display:inline-block;
   margin-top:18px;
-  font-size:1.5rem;
-  font-weight:700;
+  font-size:1.35rem;
+  font-weight:600;
   color:var(--navy);
 }
 
