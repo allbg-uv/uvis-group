@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uvisgroup.net/sitemap.xml
+Sitemap: https://uvisgroup.com/sitemap.xml
