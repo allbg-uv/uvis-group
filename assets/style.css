@@ -587,8 +587,7 @@ footer img{
 }
 
 
-
-/* Project alignment fix */
+/* Project alignment */
 
 .project-list > .project-card {
   display: flex;
@@ -597,9 +596,28 @@ footer img{
   margin-inline: auto;
 }
 
-.project-list > .project-card > .project-media {
+.project-list > .project-card > .project-media,
+.project-list > .project-card > .project-carousel {
   width: 100%;
   flex: 0 0 auto;
+}
+
+.project-list > .project-card > .project-credit-box {
+  position: static;
+  display: block;
+  align-self: flex-start;
+
+  width: 100%;
+  max-width: 420px;
+
+  margin: 24px 0 0;
+  padding-top: 16px;
+
+  transform: none;
+}
+
+.project-list > .project-card + .project-card {
+  margin-top: 40px;
 }
 
 .project-list > .project-card > .project-credit-box {
