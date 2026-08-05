@@ -616,20 +616,5 @@ footer img{
   transform: none;
 }
 
-.project-list > .project-card + .project-card {
-  margin-top: 40px;
-}
 
-.project-list > .project-card > .project-credit-box {
-  position: static;
-  display: block;
-  align-self: flex-start;
 
-  width: 100%;
-  max-width: 360px;
-
-  margin: 28px 0 0;
-  padding-top: 16px;
-
-  transform: none;
-}
