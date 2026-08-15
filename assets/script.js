@@ -15,10 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       src: "assets/project-hazi-hinam-holon-main.webp",
       alt: "Commercial supermarket interior at Hazi Hinam in Holon"
     },
-    {
-      src: "assets/project-hazi-hinam-holon-overview.webp",
-      alt: "Wide overview of the Hazi Hinam supermarket interior in Holon"
-    },
+  
     {
       src: "assets/project-hazi-hinam-holon-dairy-section.webp",
       alt: "Dairy and cheese section at Hazi Hinam supermarket in Holon"
