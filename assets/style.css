@@ -431,6 +431,10 @@ p{
   backdrop-filter: blur(6px);
 }
 
+.project-carousel-overlay {
+  pointer-events: none;
+  z-index: 1;
+}
 
 
 /* Contact */
