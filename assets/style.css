@@ -322,6 +322,18 @@ p{
       transparent 68%
     );
 }
+.project-title {
+  margin-top: 28px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.project-description {
+  max-width: 760px;
+  margin-top: 12px;
+  color: var(--muted);
+}
 
 .project-credit-box {
   width: 100%;
