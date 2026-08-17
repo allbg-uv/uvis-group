@@ -404,6 +404,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 };
 
+  
+
   const projectCarousels = {
 
   "shared-projects": [
@@ -447,6 +449,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 };
 
+  function buildCarouselSlides(projectIds) {
+  return projectIds.flatMap((projectId) => {
+    const project = projects[projectId];
+
+    if (!project) {
+      console.warn(`Project not found: ${projectId}`);
+      return [];
+    }
+
+    return project.images.map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      category: project.category,
+      title: project.name,
+      description: project.description
+    }));
+  });
+}
+
+  const generatedProjectSlides = {};
+
+Object.entries(projectCarousels).forEach(([carouselId, projectIds]) => {
+  generatedProjectSlides[carouselId] = buildCarouselSlides(projectIds);
+});
+  
+  
   const projectSlides = {
 
     "hazi-hinam": [
