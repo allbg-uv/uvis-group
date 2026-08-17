@@ -525,6 +525,10 @@ const slides = generatedProjectSlides[carouselId];
     const currentCounter = carousel.querySelector("[data-carousel-current]");
     const totalCounter = carousel.querySelector("[data-carousel-total]");
 
+    const categoryElement = carousel.querySelector("[data-carousel-category]");
+const titleElement = carousel.querySelector("[data-carousel-title]");
+const descriptionElement = carousel.querySelector("[data-carousel-description]");
+
     let currentIndex = 0;
 
     totalCounter.textContent = String(slides.length);
@@ -532,11 +536,26 @@ const slides = generatedProjectSlides[carouselId];
     const showSlide = (index) => {
       currentIndex = (index + slides.length) % slides.length;
 
+
       image.src = slides[currentIndex].src;
       image.alt = slides[currentIndex].alt;
 
+      if (categoryElement) {
+  categoryElement.textContent = slides[currentIndex].category;
+}
+
+if (titleElement) {
+  titleElement.textContent = slides[currentIndex].title;
+}
+
+if (descriptionElement) {
+  descriptionElement.textContent = slides[currentIndex].description;
+}
+
       currentCounter.textContent = String(currentIndex + 1);
     };
+
+     showSlide(0);
 
     previousButton.addEventListener("click", () => {
       showSlide(currentIndex - 1);
