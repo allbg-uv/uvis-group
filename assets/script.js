@@ -514,8 +514,8 @@ Object.entries(projectCarousels).forEach(([carouselId, projectIds]) => {
 
   carousels.forEach((carousel) => {
 
-    const projectName = carousel.dataset.projectCarousel;
-    const slides = projectSlides[projectName];
+  const carouselId = carousel.dataset.projectCarousel;
+const slides = generatedProjectSlides[carouselId];
 
     if (!slides || slides.length === 0) return;
 
