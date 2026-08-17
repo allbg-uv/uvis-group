@@ -404,6 +404,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
 };
 
+  const projectCarousels = {
+
+  "shared-projects": [
+    "rami-levy-checkout",
+    "haviv-petah-tikva",
+    "yohananof-holon-junction",
+    "yohananof-rehovot",
+    "hazi-hinam-checkout-area",
+    "hazi-hinam-refrigerated-area-ceiling",
+    "yohananof-modiin",
+    "shuk-hair-ramot"
+  ],
+
+  "hazi-hinam-holon": [
+    "hazi-hinam-holon"
+  ],
+
+  "shefa-market": [
+    "shefa-market"
+  ],
+
+  "hazi-hinam-fashion-homeware": [
+    "hazi-hinam-fashion-homeware"
+  ],
+
+  "hazi-hinam-em-hamoshavot": [
+    "hazi-hinam-em-hamoshavot"
+  ],
+
+  "hazi-hinam-rishon-lezion": [
+    "hazi-hinam-rishon-lezion"
+  ],
+
+  "yohananof-ashdod-checkout": [
+    "yohananof-ashdod-checkout"
+  ],
+
+  "bol-market-minimarket": [
+    "bol-market-minimarket"
+  ]
+
+};
+
   const projectSlides = {
 
     "hazi-hinam": [
