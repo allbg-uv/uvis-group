@@ -604,15 +604,29 @@ footer img{
     max-width: 100%;
   }
 
-  .project-carousel {
-    height: 480px;
-  }
+.project-carousel {
+  height: auto;
+  aspect-ratio: 4 / 3;
+  border-radius: 18px;
+}
 
-  .project-carousel-arrow {
-    width: 44px;
-    height: 44px;
-    font-size: 23px;
-  }
+.project-carousel-arrow {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  backdrop-filter: none;
+}
+
+.project-carousel-arrow:hover {
+  background: transparent;
+  transform: translateY(-50%);
+}
 
   .project-carousel-prev {
     left: 12px;
