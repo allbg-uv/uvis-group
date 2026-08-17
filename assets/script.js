@@ -492,7 +492,7 @@ const slides = generatedProjectSlides[carouselId];
 
     const categoryElement = carousel.querySelector("[data-carousel-category]");
 const titleElement = carousel.querySelector("[data-carousel-title]");
-const descriptionElement = carousel.querySelector("[data-carousel-description]");
+
 
     let currentIndex = 0;
 
@@ -513,9 +513,7 @@ if (titleElement) {
   titleElement.textContent = slides[currentIndex].title;
 }
 
-if (descriptionElement) {
-  descriptionElement.textContent = slides[currentIndex].description;
-}
+
 
       currentCounter.textContent = String(currentIndex + 1);
     };
